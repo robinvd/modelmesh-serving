@@ -30,8 +30,8 @@ on:
       - 'proto/**'
 
 env:
-  IMAGE_NAME: "kserve/modelmesh-controller"
-  DEV_IMAGE_NAME: "kserve/modelmesh-controller-develop"
+  IMAGE_NAME: "robinjint/modelmesh-controller"
+  DEV_IMAGE_NAME: "robinjint/modelmesh-controller-develop"
 
 jobs:
   build:
